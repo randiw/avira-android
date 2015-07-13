@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FitWidth"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top"
+        style="@style/WrapContent"
+        android:orientation="vertical">
+
+        <View style="@style/dateLine.small" />
+
+        <View style="@style/dateLine.small" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28 Jan 15"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="2dp"/>
+
+    <View style="@style/dateLine.big" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        style="@style/WrapContent"
+        android:orientation="vertical">
+
+        <View style="@style/dateLine.small" />
+
+        <View style="@style/dateLine.small" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent"
+    android:background="#44000000">
+
+    <ListView
+        android:id="@+id/datelist"
+        style="@style/cleanlist"
+        android:layout_width="@dimen/date_list_width"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/date_list_margin_top"
+        android:paddingLeft="10dp"
+        android:scrollbars="none"/>
+
+    <ListView
+        android:id="@+id/imagelist"
+        style="@style/cleanlist"
+        android:layout_toRightOf="@+id/datelist"/>
+
+</RelativeLayout>

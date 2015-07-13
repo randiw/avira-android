@@ -1,8 +1,51 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="FitWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="dateLine" parent="line">
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="dateLine.small" parent="dateLine">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/gray_silver</item>
+    </style>
+
+    <style name="dateLine.big" parent="dateLine">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="cleanlist" parent="MatchParent">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
     </style>
 
 </resources>

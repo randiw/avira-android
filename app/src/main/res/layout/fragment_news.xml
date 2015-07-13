@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/WrapContent"
+        android:layout_centerInParent="true"
+        android:text="@string/news_title" />
+
+    <com.facebook.share.widget.ShareButton
+        style="@style/WrapContent"
+        android:id="@+id/share"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flat yellow -->
+    <color name="yellow_cream_can">#f5d76e</color>
+
+    <!-- Flat gray -->
+    <color name="gray_silver_sand">#bdc3c7</color>
+    <color name="gray_silver">#bfbfbf</color>
+    <color name="gray_gallery">#eeeeee</color>
+</resources>
