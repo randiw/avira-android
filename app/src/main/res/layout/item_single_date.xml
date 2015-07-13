@@ -14,13 +14,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/date"
-        style="@style/WrapContent"
-        android:text="28 Jan 15"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="2dp"/>
-
     <View style="@style/dateLine.big" />
 
     <LinearLayout
@@ -31,13 +24,6 @@
         <View style="@style/dateLine.small" />
 
         <View style="@style/dateLine.small" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/container"
-        style="@style/WrapContent"
-        android:orientation="vertical">
 
     </LinearLayout>
 

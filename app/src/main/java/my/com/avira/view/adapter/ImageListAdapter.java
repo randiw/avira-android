@@ -16,7 +16,6 @@ import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import my.com.avira.ImageItem;
 import my.com.avira.Photo;
 import my.com.avira.R;
 import my.com.avira.Record;
@@ -50,7 +49,7 @@ public class ImageListAdapter extends RecordCursorAdapter {
 
         Record record = getItem(position);
         List<Photo> photos = PhotoRepository.findByRecord(record.getRecord_id());
-        int photoShown = 0;
+        int photoShown;
         if(photos.size() > 3) {
             photoShown = 3;
             holder.more.setVisibility(View.VISIBLE);
